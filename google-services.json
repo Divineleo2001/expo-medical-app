@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "467874613780",
+    "project_id": "spandana-4fcad",
+    "storage_bucket": "spandana-4fcad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467874613780:android:aee39a911242a210677501",
+        "android_client_info": {
+          "package_name": "com.divineleo20.expomedicalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467874613780-iuusrp2m1tgbesq256vqcp0bm7s7diqg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.divineleo20.expomedicalapp",
+            "certificate_hash": "529bddbcb7c166837532d33702a8eca8af367777"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz1S1mg_DBEIYfYsuNbq3AfWXfAd9O410"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,7 +3,6 @@
     "name": "expo-medical-app",
     "slug": "expo-medical-app",
     "version": "1.0.0",
-
     "scheme": "expo-medical-app",
     "web": {
       "bundler": "metro",
@@ -12,37 +11,46 @@
     },
     "plugins": [
       "expo-router",
+      "@react-native-google-signin/google-signin",
       [
         "expo-dev-launcher",
         {
           "launchMode": "most-recent"
         }
-      ]
+      ],
+      "expo-font",
+      "expo-build-properties"
     ],
     "experiments": {
       "typedRoutes": true,
-
       "tsconfigPaths": true
     },
-
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-
     "userInterfaceStyle": "light",
-
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.divineleo20.expomedicalapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#ffffff",
+        "googleServicesFile": "./google-services.json"
+      },
+      "package": "com.divineleo20.expomedicalapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8a932760-85b4-4162-9760-9c895150a982"
       }
     }
   }
